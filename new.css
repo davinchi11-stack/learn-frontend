@@ -84,7 +84,7 @@ body {
 
 .section-intro {
   padding: 30px 10px;
-  margin: 20px 0;
+  margin: 20px 60px;
   position: relative;
 }
 .section-intro .outer {
@@ -100,7 +100,7 @@ body {
   display: none;
 }
 .section-intro .outer:hover {
-  background-color: #ebebeb;
+  transform: scale(1.03);
 }
 .section-intro .place-holder {
   width: 200px;
@@ -132,4 +132,53 @@ body {
   font-weight: 800;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+@media only screen and (min-width: 816px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 10px;
+  }
+  .header .menu {
+    display: none;
+  }
+  .header ul {
+    width: unset;
+    margin: unset;
+  }
+  .header li {
+    display: block;
+    float: left;
+    margin-left: 15px;
+  }
+  .header li a {
+    text-decoration: none;
+  }
+  .section-a {
+    margin: auto;
+    max-width: 1100px;
+  }
+  .section-a .speach {
+    width: 400px;
+    margin: initial;
+  }
+  .section-intro {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    position: relative;
+    top: 20em;
+    flex-direction: row;
+    margin: 0 70px;
+  }
+  .section-intro .outer {
+    display: inline-block;
+  }
+  #intro {
+    width: 89.2%;
+  }
 }/*# sourceMappingURL=new.css.map */

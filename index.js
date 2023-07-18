@@ -8,7 +8,7 @@ function init(){
    var countSwitch = 0
    let tl = new TimelineMax()
 
-   console.log(tl);
+   tl.fromTo(".speach",2,{opacity:"0"},{opacity:"1",ease:Expo.EaseInOut})
 
 
    menu.addEventListener("click",function(){
@@ -28,8 +28,8 @@ function init(){
         icon.setAttribute("name","menu")
         countSwitch = 0
 
-        tl.fromTo(".header li",0.2,{display:"block"},{display:"none"})
-        .fromTo(".outer",{display:"block"},{display:"none"})
+        tl.fromTo(".outer",0.2,{display:"block"},{display:"none"})
+        .fromTo(".header li",{display:"block"},{display:"none"})
         .fromTo(".header li",0.5,{opacity:"1"},{opacity:"0"})
     }
 
