@@ -1,0 +1,135 @@
+body {
+  background-color: beige;
+}
+
+.header {
+  position: relative;
+  padding: 30px 10px;
+}
+.header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header .logo ion-icon {
+  font-size: 1.5em;
+  margin-bottom: 25px;
+}
+.header h1 {
+  font-family: "Dancing Script";
+  font-size: 1.3em;
+  text-transform: capitalize;
+  font-weight: 900;
+  margin-bottom: 30px;
+  color: #1520a6;
+}
+.header h1 span {
+  color: #fc0fc0;
+}
+.header ul {
+  width: 250px;
+  margin: auto;
+}
+.header li {
+  margin: 18px 0;
+  display: none;
+}
+.header li a {
+  text-decoration: none;
+  font-family: "fredoka";
+  font: 1em;
+  position: relative;
+}
+.header li a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 0.2em;
+  background-color: #fc0fc0;
+  bottom: -10px;
+  left: 0;
+  transition: 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.header li a:hover::after {
+  width: 80%;
+}
+.header .contact {
+  margin: 30px 0;
+}
+.header .contact a {
+  color: #222;
+  background-color: transparent;
+  padding: 8px 18px;
+  font-size: 1em;
+  font-family: "fredoka";
+  text-decoration: none;
+  border-radius: 15px;
+  font-weight: 200;
+}
+.header .contact a:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+.section-a .speach {
+  width: 280px;
+  margin: 0 auto;
+}
+.section-a p {
+  font-family: "Caveat";
+  font-size: 1.3em;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+}
+
+.section-intro {
+  padding: 30px 10px;
+  margin: 20px 0;
+  position: relative;
+}
+.section-intro .outer {
+  width: 250px;
+  height: 300px;
+  padding: 20px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: none;
+}
+.section-intro .outer:hover {
+  background-color: #ebebeb;
+}
+.section-intro .place-holder {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border-radius: 5px;
+}
+.section-intro .place-holder img {
+  width: inherit;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: inherit;
+}
+.section-intro .content {
+  position: absolute;
+  bottom: 25px;
+  font-family: "Mada";
+  left: 50px;
+}
+.section-intro p {
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: #1520a6;
+}
+.section-intro a {
+  font-size: 0.8em;
+  font-family: "Mada";
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+}/*# sourceMappingURL=new.css.map */
