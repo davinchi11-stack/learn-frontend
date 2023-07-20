@@ -164,7 +164,7 @@ body {
   }
   .section-a .speach {
     width: 400px;
-    margin: initial;
+    padding: 10px;
   }
   .section-intro {
     display: flex;
