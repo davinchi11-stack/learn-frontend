@@ -1,0 +1,21 @@
+.header{
+    &.active{
+
+ 
+        .menu-list{
+            transform: translateX(0px);
+            z-index: 9;
+        }
+    
+        .mobile-icons{
+    
+            .open{
+               display: none;
+            }
+    
+            .close{
+             display: contents;
+            }
+        }
+      }
+}

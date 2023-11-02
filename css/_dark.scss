@@ -1,0 +1,74 @@
+.wrapper{
+    &.light{
+        background: $matte-black;
+  
+        header{
+          &.active{
+  
+   
+              .menu-list{
+                  transform: translateX(0px);
+                  z-index: 9;
+                  background: $matte-black;
+                   
+                  ul{
+                      li{
+                          a{
+                              color: #fff;
+                          }
+                      }
+                  }
+              }
+          
+          
+            }
+        }
+  
+        .logo{
+  
+          h1{
+              color: #fff;
+              span{
+               color:   $span-color
+              }
+          }
+        }
+  
+        .menu-list{
+           ul{
+              li{
+                  a{
+                      color: #fff;
+                  }
+              }
+           }
+        }
+  
+        .main-header{
+          color: #fff;
+        }
+  
+        button{
+    
+           background-color: #ccc;
+      
+          &:hover{
+              transform: scale(1.03);
+          }
+      
+          span{
+              font-size: 20px;
+              color: yellow;
+              
+              &.light{
+                  display: contents;
+              }
+      
+              &.dark{
+                  display: none;
+              }
+          }
+        }
+      }
+  
+}
