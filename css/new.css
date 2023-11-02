@@ -77,7 +77,6 @@ header.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
 }
 header.header .logo {
   z-index: 999;
