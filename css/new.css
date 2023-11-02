@@ -226,7 +226,7 @@ section.section.intro {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 980px) {
+@media (max-width: 768px) {
   section.section.intro {
     flex-direction: column;
     gap: 50px;
